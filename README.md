@@ -23,10 +23,10 @@ A Timer Coundown application counts to the new year 2024.
 A Stopwatch application 
 
 
-Golden task 4: Integrate Payment Gateway
-![Screenshot (18)](https://user-images.githubusercontent.com/95518302/233764614-4c96c999-38cd-475d-adb9-94b329b80a8e.png)
-![Screenshot (19)](https://user-images.githubusercontent.com/95518302/233764620-1ea7eb10-a16c-48d1-ad52-b3b7f16e92f8.png)
-![Screenshot (20)](https://user-images.githubusercontent.com/95518302/233764621-76cdcfad-6afd-4c4d-affa-5f4d26e3e6ff.png)
+Golden task 1: Online Code Editor
 
 
+
+
+![Screenshot (21)](https://user-images.githubusercontent.com/95518302/233781799-a1153765-024a-4593-93ff-52bcd4bd1b8e.png)
 
