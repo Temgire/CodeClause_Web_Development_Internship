@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  min-height: 100vh;
+  background: linear-gradient(to right top,#65dfc9,#6cdbeb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.glass{
+  background: white;
+  min-height: 80vh;
+  width: 60%;
+  background: linear-gradient(to right bottom,
+  rgba(255,255,255,0.7),
+  rgba(255,255,255,0.3));
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter:blur(2rem);
+  display: flex;
+}
+.circle1,
+.circle2{
+  background: white;
+  background: linear-gradient(to right bottom,
+  rgba(255,255,255,0.8),
+  rgba(255,255,255,0.3));
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+ border-radius: 50%;
+ 
+} 
+.circle1{
+  top:2%;
+  right: 10%;
+}
+.circle2{
+  bottom: 2%;
+  left: 10%;
+}
+
+a{
+  font-family: 'Roboto Slab', serif;
+  float: left;
+  list-style-type: none;
+  text-decoration: none;
+   border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  margin-right: 8px;
+  
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+a:hover
+{
+background: #2ecc71;
+}
+
+.box{
+  border-radius: 30px;
+  width: 800px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  /* background: linear-gradient(to right top,#65dfc9,#6cdbeb); */
+  background-color: #d9e4f5;
+  background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+  
+}
+.box h1{
+  font-family: 'Roboto Slab', serif;
+	text-align: center;
+  color: #000;
+  font-size: 50px;
+  border: 2px ;
+  font-weight: 500;
+}
+
+.box h2{
+  font-family: 'Roboto Slab', serif;
+  color: #000;
+  margin: 0px;
+  padding-left: 340px;
+  font-size: 20px;
+  border: 5px ;
+}
+
+.text{
+	text-align: center;
+}
+
+.box input[type = "text"]{
+  border:0;
+  background: none;
+  margin: auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px ;
+  width: 200px;
+  outline: none;
+  color: #000;
+  border-radius: 20px;
+  transition: 0.25s;
+}
+
+.box input[type = "text"]:hover
+{
+  width: 220px;
+  border-color: #2ecc71;
+}
+
+.box select{
+	border:0;
+  background: none;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 10px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box select:hover
+{
+  border-color: #2ecc71;
+}
+
+
+
+
+
+#inputType,#resultType{
+	width: 120px;
+	text-align: center;
+	color: black;
+}
